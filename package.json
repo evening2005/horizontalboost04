@@ -1,0 +1,175 @@
+{
+    "author": "andyw2004@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "boosth03",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "Boost Racing (Horizontal) 03",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/TutorialBackground.png",
+                    "name": "TUTORIAL_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/splash.png",
+                    "name": "IMAGE_SPLASHSCREEN",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/yellowcar4.png",
+                    "name": "YELLOW_TRUCK",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/yellowcar.png",
+                    "name": "YELLOW_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/smallbluecar5.png",
+                    "name": "BLUE_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/redcar4.png",
+                    "name": "ORANGE_TRUCK",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/orangecar.png",
+                    "name": "ORANGE_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/kerbR.png",
+                    "name": "HB_RIGHT_KERB",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/kerbL.png",
+                    "name": "HB_LEFT_KERB",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/greencar4.png",
+                    "name": "GREEN_TRUCK",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/greencar.png",
+                    "name": "GREEN_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/gold_texture_by_paulinemoss-128x128.png",
+                    "name": "GOLD_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/finishline.png",
+                    "name": "FINISH_LINE",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/blackcar4.png",
+                    "name": "BLACK_TRUCK",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/blackcar3.png",
+                    "name": "BLACK_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/larabiefont rg.ttf",
+                    "name": "FONT_LARABIE_16",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9a-z \\.\\-]",
+                    "file": "fonts/PragatiNarrow-Bold.ttf",
+                    "name": "FONT_PRAGATTINARROW_BOLD_18",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/Action_Force.ttf",
+                    "name": "FONT_ACTIONFORCE_16",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "04fbe141-5fcf-4bab-8fcc-87230032b70a",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "3.2.0"
+}
