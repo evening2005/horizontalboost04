@@ -17,13 +17,13 @@
 #define DRAG_DIVISOR (21)
 #define BOOST_CHANCE (16384) // This is compared with a random number (0..65535)
 
-#define MAX_NPCS (8)
+#define MAX_NPCS (7)
 
 #define min(a, b) ((a) <= (b) ? (a) : (b))
 
 
-#define CAR_LENGTH (30)
-#define CAR_WIDTH (17)
+#define CAR_LENGTH (28)
+#define CAR_WIDTH (15)
 
 #define PASSING_CLEARANCE (1)
 #define NO_STEERING_PLAN  (-9999)

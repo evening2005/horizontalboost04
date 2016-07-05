@@ -113,6 +113,7 @@ void race_result_populate_position_layers(GContext *ctx) {
             animation_set_delay((Animation *)resultAnimations[animationNumber+1], 0);
             // Now let's do the car images
             bitmap_layer_set_bitmap(carPositionLayers[rank], pge_sprite_get_bitmap(whichCar->sprite));
+            bitmap_layer_set_compositing_mode(carPositionLayers[rank], GCompOpSet);
             layer_add_child(windowLayer, (Layer *)carPositionLayers[rank]);
             fromFrame = layer_get_frame((Layer *)carPositionLayers[rank]);
             toFrame = GRect(RESULTS_CAR_LEFT, RESULTS_TOP + (rank * (carScreenPos.size.h + RESULTS_GAP)), carScreenPos.size.w, carScreenPos.size.h);

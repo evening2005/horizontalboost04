@@ -2,15 +2,14 @@
 #include "race.h"
 #include "statemachine.h"
 
-carType blueCar;
-carType orangeCar;
-carType yellowCar;
-carType greenCar;
-carType blackCar;
-carType blackTruck;
-carType orangeTruck;
-carType yellowTruck;
-carType greenTruck;
+carType blueF1Car;
+carType skyblueF1Car;
+carType orangeF1Car;
+carType yellowF1Car;
+carType lightgreenF1Car;
+carType darkgreenF1Car;
+carType pinkF1Car;
+carType redF1Car;
 
 
 static uint16_t howManyNPCs = 0;
@@ -251,24 +250,22 @@ void race_reset_cars() {
 
 
 void race_create_cars(int level) {  
-    car_initialise(&blueCar, RESOURCE_ID_BLUE_CAR, GColorCadetBlue, "Player");    
-    race_set_player(&blueCar);
-    car_initialise(&orangeCar, RESOURCE_ID_ORANGE_CAR, GColorOrange, "Orange");
-    race_add_to_grid(&orangeCar);
-    car_initialise(&yellowCar, RESOURCE_ID_YELLOW_CAR, GColorChromeYellow, "Yellow");    
-    race_add_to_grid(&yellowCar);
-    car_initialise(&greenCar, RESOURCE_ID_GREEN_CAR, GColorGreen, "Green");    
-    race_add_to_grid(&greenCar);
-    car_initialise(&orangeTruck, RESOURCE_ID_ORANGE_TRUCK, GColorOrange, "OrangeT");
-    race_add_to_grid(&orangeTruck);
-    car_initialise(&yellowTruck, RESOURCE_ID_YELLOW_TRUCK, GColorChromeYellow, "YellowT");    
-    race_add_to_grid(&yellowTruck);
-    car_initialise(&greenTruck, RESOURCE_ID_GREEN_TRUCK, GColorGreen, "GreenT");    
-    race_add_to_grid(&greenTruck);
-    car_initialise(&blackCar, RESOURCE_ID_BLACK_CAR, GColorBlack, "Black");
-    race_add_to_grid(&blackCar);
-    car_initialise(&blackTruck, RESOURCE_ID_BLACK_TRUCK, GColorBlack, "BlackT");
-    race_add_to_grid(&blackTruck);
+    car_initialise(&skyblueF1Car, RESOURCE_ID_SKYBLUE_F1, GColorPictonBlue, "Player");    
+    race_set_player(&skyblueF1Car);
+    car_initialise(&blueF1Car, RESOURCE_ID_BLUE_F1, GColorDukeBlue, "DarkBlue");    
+    race_add_to_grid(&blueF1Car);
+    car_initialise(&orangeF1Car, RESOURCE_ID_ORANGE_F1, GColorChromeYellow, "Orange");
+    race_add_to_grid(&orangeF1Car);
+    car_initialise(&yellowF1Car, RESOURCE_ID_YELLOW_F1, GColorYellow, "Yellow");    
+    race_add_to_grid(&yellowF1Car);
+    car_initialise(&darkgreenF1Car, RESOURCE_ID_DARKGREEN_F1, GColorIslamicGreen, "DarkGreen");    
+    race_add_to_grid(&darkgreenF1Car);
+    car_initialise(&lightgreenF1Car, RESOURCE_ID_LIGHTGREEN_F1, GColorMintGreen, "LightGreen");    
+    race_add_to_grid(&lightgreenF1Car);
+    car_initialise(&pinkF1Car, RESOURCE_ID_PINK_F1, GColorBrilliantRose, "Pink");
+    race_add_to_grid(&pinkF1Car);
+    car_initialise(&redF1Car, RESOURCE_ID_RED_F1, GColorRed, "Red");
+    race_add_to_grid(&redF1Car);
     
     race_reset_cars();
 }

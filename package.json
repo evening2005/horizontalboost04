@@ -2,28 +2,76 @@
     "author": "andyw2004@gmail.com",
     "dependencies": {},
     "keywords": [],
-    "name": "boosth03",
+    "name": "boosth04",
     "pebble": {
         "capabilities": [
             ""
         ],
-        "displayName": "Boost Racing (Horizontal) 03",
+        "displayName": "Boost H04",
         "enableMultiJS": false,
         "messageKeys": {},
         "projectType": "native",
         "resources": {
             "media": [
                 {
-                    "file": "images/TutorialBackground.png",
-                    "name": "TUTORIAL_BACKGROUND",
+                    "file": "images/skyblueF1carMM",
+                    "name": "SKYBLUE_F1",
                     "targetPlatforms": [
                         "basalt"
                     ],
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/splash.png",
-                    "name": "IMAGE_SPLASHSCREEN",
+                    "file": "images/redF1carMM",
+                    "name": "RED_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/orangeF1carMM",
+                    "name": "ORANGE_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/lightgreenF1carMM",
+                    "name": "LIGHTGREEN_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/darkgreenF1carMM",
+                    "name": "DARKGREEN_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/yellowF1carMM",
+                    "name": "YELLOW_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/blueF1carMM",
+                    "name": "BLUE_F1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pinkF1carMM",
+                    "name": "PINK_F1",
                     "targetPlatforms": [
                         "basalt"
                     ],
@@ -40,6 +88,14 @@
                 {
                     "file": "images/yellowcar.png",
                     "name": "YELLOW_CAR",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/splash.png",
+                    "name": "IMAGE_SPLASHSCREEN",
                     "targetPlatforms": [
                         "basalt"
                     ],
@@ -134,6 +190,14 @@
                     "type": "bitmap"
                 },
                 {
+                    "file": "images/TutorialBackground.png",
+                    "name": "TUTORIAL_BACKGROUND",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
                     "characterRegex": "[0-9:]",
                     "file": "fonts/larabiefont rg.ttf",
                     "name": "FONT_LARABIE_16",
@@ -171,5 +235,5 @@
             "watchface": false
         }
     },
-    "version": "3.2.0"
+    "version": "4.1.0"
 }
