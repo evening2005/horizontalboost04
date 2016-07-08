@@ -78,48 +78,8 @@
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/yellowcar4.png",
-                    "name": "YELLOW_TRUCK",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/yellowcar.png",
-                    "name": "YELLOW_CAR",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
                     "file": "images/splash.png",
                     "name": "IMAGE_SPLASHSCREEN",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/smallbluecar5.png",
-                    "name": "BLUE_CAR",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/redcar4.png",
-                    "name": "ORANGE_TRUCK",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/orangecar.png",
-                    "name": "ORANGE_CAR",
                     "targetPlatforms": [
                         "basalt"
                     ],
@@ -142,22 +102,6 @@
                     "type": "bitmap"
                 },
                 {
-                    "file": "images/greencar4.png",
-                    "name": "GREEN_TRUCK",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/greencar.png",
-                    "name": "GREEN_CAR",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
                     "file": "images/gold_texture_by_paulinemoss-128x128.png",
                     "name": "GOLD_BACKGROUND",
                     "targetPlatforms": [
@@ -168,22 +112,6 @@
                 {
                     "file": "images/finishline.png",
                     "name": "FINISH_LINE",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/blackcar4.png",
-                    "name": "BLACK_TRUCK",
-                    "targetPlatforms": [
-                        "basalt"
-                    ],
-                    "type": "bitmap"
-                },
-                {
-                    "file": "images/blackcar3.png",
-                    "name": "BLACK_CAR",
                     "targetPlatforms": [
                         "basalt"
                     ],
@@ -235,5 +163,5 @@
             "watchface": false
         }
     },
-    "version": "4.1.0"
+    "version": "4.2.0"
 }

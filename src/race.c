@@ -262,7 +262,7 @@ void race_create_cars(int level) {
     race_add_to_grid(&darkgreenF1Car);
     car_initialise(&lightgreenF1Car, RESOURCE_ID_LIGHTGREEN_F1, GColorMintGreen, "LightGreen");    
     race_add_to_grid(&lightgreenF1Car);
-    car_initialise(&pinkF1Car, RESOURCE_ID_PINK_F1, GColorBrilliantRose, "Pink");
+    car_initialise(&pinkF1Car, RESOURCE_ID_PINK_F1, GColorFashionMagenta, "Pink");
     race_add_to_grid(&pinkF1Car);
     car_initialise(&redF1Car, RESOURCE_ID_RED_F1, GColorRed, "Red");
     race_add_to_grid(&redF1Car);
